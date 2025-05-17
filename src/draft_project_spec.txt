@@ -1,0 +1,39 @@
+AI-Driven Traffic Management (PRL2)
+
+Languages : Java/Python?
+
+Basic project ideas and goals:
+	Sprint 1:
+		- Basic traffic simulation
+	Sprint 2:
+		- Optimization
+	Sprint 3:
+		- Efficiency
+		- User end
+		- Toggles and Input Params
+
+
+Sprint 1:
+	Front end:
+		GUI - Python - LERP of Cars
+		GUI API
+	Back end:
+		GameBoard
+		Java Simulation loop
+		Cars Classes
+		Traffic Light Classes
+		CLASSES:
+			Cars.java
+			TrafficLights.java
+			Engine.java
+			GridLoader.java
+			Utils.java
+			API.java
+		FILES:
+			4way.txt => [Grid]
+			3way.txt => [Grid]
+
+	Makefile:
+		make release (Clean & compile & run)
+		make debug 		||
+
